@@ -58,7 +58,7 @@ var HomePage = (function () {
     }
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"/Users/alexandru.panait/Work/Other/WebDollar-mobile/newapp/src/pages/home/home.html"*/'<!--<ion-header>-->\n  <!--<ion-navbar>-->\n    <!--<ion-title>-->\n      <!--Ionic Blank-->\n    <!--</ion-title>-->\n  <!--</ion-navbar>-->\n<!--</ion-header>-->\n\n<ion-content padding>\n\n  <div id="contentBox">\n    <img src="http://webdollar.io/public/WebDollar-logo-white.png" id="logo">\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"/Users/alexandru.panait/Work/Other/WebDollar-mobile/newapp/src/pages/home/home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"/Users/alexandru.panait/Work/Other/WebDollar-mobile/mobileApp/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Ionic Blank\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n  <div id="contentBox">\n    <img src="http://webdollar.io/public/WebDollar-logo-white.png" id="logo">\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"/Users/alexandru.panait/Work/Other/WebDollar-mobile/mobileApp/src/pages/home/home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], HomePage);
@@ -177,7 +177,7 @@ var MyApp = (function () {
         });
     }
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/alexandru.panait/Work/Other/WebDollar-mobile/newapp/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/alexandru.panait/Work/Other/WebDollar-mobile/newapp/src/app/app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/alexandru.panait/Work/Other/WebDollar-mobile/mobileApp/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/alexandru.panait/Work/Other/WebDollar-mobile/mobileApp/src/app/app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
