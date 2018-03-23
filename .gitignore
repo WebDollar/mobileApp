@@ -39,6 +39,8 @@ Thumbs.db
 # Node files #
 ######################
 node_modules
+plugins
+platforms
 
 # IDEA files #
 ######################
