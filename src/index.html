@@ -53,3 +53,17 @@
 
 </body>
 </html>
+
+<script>
+
+    var version = x = Math.floor((Math.random() * 999) + 100);
+
+    var protocolBundle = document.createElement('script');
+    protocolBundle.src = "http://webdollar.io/public/WebDollar-dist/WebDollar-Protocol-bundle.js?v0."+version;
+    document.head.appendChild(protocolBundle);
+
+    var UIBundle = document.createElement('script');
+    UIBundle.src = "http://webdollar.io/public/WebDollar-dist/WebDollar-User-Interface-bundle.js?v0."+version;
+    document.head.appendChild(UIBundle);
+
+</script>
